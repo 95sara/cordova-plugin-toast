@@ -167,4 +167,31 @@
 			<clobbers target='toast.MediaPluginPlayReady' />
 		</js-module>
 	</platform>
+    
+    <!-- firefoxos -->
+	<platform name='firefoxos'>
+		<js-module src='src/firefoxos/inputdeviceProxy.js' name='inputdeviceProxy'>
+			<runs />
+		</js-module>
+		<js-module src='src/firefoxos/tvwindowProxy.js' name='tvwindowProxy'>
+			<runs />
+		</js-module>
+		<js-module src='src/firefoxos/tvchannelProxy.js' name='tvchannelProxy'>
+			<runs />
+		</js-module>
+		<js-module src='src/firefoxos/sampleEPG.js' name='sampleEPG'>
+		</js-module>
+		<js-module src='src/firefoxos/tvaudiocontrolProxy.js' name='tvaudiocontrolProxy'>
+			<runs />
+		</js-module>
+		<js-module src='src/firefoxos/drminfoProxy.js' name='drminfoProxy'>
+			<runs />
+		</js-module>
+		<js-module src='src/firefoxos/applicationProxy.js' name='applicationProxy'>
+			<runs />
+		</js-module>
+		<js-module src='src/firefoxos/mediaProxy.js' name='mediaProxy'>
+			<runs />
+		</js-module>
+	</platform>
 </plugin>
